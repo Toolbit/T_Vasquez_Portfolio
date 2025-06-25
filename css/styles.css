@@ -8,11 +8,35 @@ h1 {
   margin-bottom: 1rem;
 }
 
+#file-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.file-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.file-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .download-link {
-  display: inline-block;
-  margin: 0.5rem 0;
+  display: block;
+  margin-top: 0.5rem;
   color: #0056b3;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .download-link:hover {
