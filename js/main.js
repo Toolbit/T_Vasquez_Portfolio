@@ -1,6 +1,6 @@
 const files = [
   {
-    name: "Travis Vasquez Portfolio",
+    name: "Travis Vasquez Portfolio Reel",
     path: "VIDEO/T_Vasquez_Portfolio.mp4"
   },
   {
@@ -8,7 +8,7 @@ const files = [
     path: "VIDEO/Concord - Teaser Trailer PS5 PC Games (1080p).mp4"
   },
   {
-    name: "Travis Vasquez CV",
+    name: "Travis Vasquez CV 2025",
     path: "assets/Vasquez_T_CV_2025.pdf"
   }
 ];
